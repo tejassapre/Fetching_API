@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>simple Api</title>
+    <style>
+      
+        .container{
+            background-color: rgb(230, 230, 134);
+            border: 5px solid rgb(35, 35, 35);
+            border-radius: 10px;
+        }
+        #answer{
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            margin-left: 50px;
+            align-content: center;
+            border-radius: 10px;
+            transform: scale(0.8);
+
+            
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Type Any Word</h1>
+    <label>see random photos</label>
+    <input id="input" type="text" value=""/>
+    <button id="button" type="submit">get answer</button>
+    <div id="answer"></div>
+    <div id="error"></div>
+    <script src="script.js"></script>
+</div>
+  </body>
+</html>
